@@ -1,6 +1,10 @@
     h1 {
-        Color: white;    
+        Color: white;  
     }
+    h2 {
+        Color: white;
+    }  
+    
     Body{
         background-image: url(https://t4.ftcdn.net/jpg/03/29/57/63/240_F_329576340_zBRuVjvHWe9zgh2b2C5fwQNITE8oGsv5.jpg);
         width: 200px;
