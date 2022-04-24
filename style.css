@@ -1,25 +1,16 @@
-    #box {
-        border: 05px dashed lightgrey;
-  border-radius: 05px;
-  text-align: center;
-  margin: auto;
-  width: 500px;
-  height: 200px;
-  font-family: Wingding;
-  background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
-    }
     h1 {
-        Color: Blue;
+        Color: white;
         
     }
     Body{
         background-image: url(https://t4.ftcdn.net/jpg/03/29/57/63/240_F_329576340_zBRuVjvHWe9zgh2b2C5fwQNITE8oGsv5.jpg);
-        
+        {
+        resize: 'background-image': 
+        width: 200px;
+        }
+
+
+
+
     }
 
