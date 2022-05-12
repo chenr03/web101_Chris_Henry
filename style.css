@@ -10,8 +10,16 @@
     }
     h1 {
         Color: white;
+        Text-size: 18px;
     }
     h2 {
         Color: white;
     }
+
+    /* the CSS to make it happen */
+    .truthful-statements {
+        display: flex;
+    }
+
+
 

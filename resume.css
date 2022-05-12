@@ -1,0 +1,78 @@
+.wrapper{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.picture{
+    align-content: center;
+    height:100px;
+    width: 100px;
+
+}
+
+.resume-page{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    width: 300mm;
+    height: 290mm;
+    grid-gap: 05px;
+    box-shadow: 0 5px 9px 0;
+rgba(0, 0, 0, 0);
+    background-color: white;
+    color:white;
+    grid-template-areas:
+        "header"
+        "experience" "education"
+        "contact" "skills";
+}
+.circle{
+    border: 5px solid black;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    float: right;
+}
+.grid-area {
+    padding: 1em 1em 1em 1em;
+    border: 2px black solid;
+}
+.header{
+    grid-area: header;
+    background-color:lightcyan;
+    height: 215px;
+    width: 146%;
+    color: black;
+    font-size: 60px;
+    text-align: left;
+
+}
+
+
+.experience{
+    grid-area: experience;
+}
+.contact{
+    grid-area: contact;
+}
+
+.education{
+    grid-area: education;
+}
+
+.img{
+    grid-area: img;
+
+}
+.skills{
+    grid-area: skills;
+}
+
+
+
+
+
