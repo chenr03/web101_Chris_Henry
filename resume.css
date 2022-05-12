@@ -3,16 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-
-.picture{
-    align-content: center;
-    height:100px;
-    width: 100px;
-
-}
-
 .resume-page{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -22,7 +13,7 @@
     height: 290mm;
     grid-gap: 05px;
     box-shadow: 0 5px 9px 0;
-rgba(0, 0, 0, 0);
+    rgba(0, 0, 0, 0);
     background-color: white;
     color:white;
     grid-template-areas:
@@ -30,48 +21,83 @@ rgba(0, 0, 0, 0);
         "experience" "education"
         "contact" "skills";
 }
-.circle{
-    border: 5px solid black;
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    float: right;
-}
 .grid-area {
     padding: 1em 1em 1em 1em;
     border: 2px black solid;
 }
 .header{
     grid-area: header;
-    background-color:lightcyan;
+    background-color: dimgrey;
     height: 215px;
     width: 146%;
-    color: black;
+    color: white;
     font-size: 60px;
     text-align: left;
-
 }
-
 
 .experience{
     grid-area: experience;
+    width: 159.5%;
+    color: black;
+    font-size: 10px;
 }
-.contact{
-    grid-area: contact;
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    float: top;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+h2{
+    float: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h3{
+    font-size:18px;
+    font-weight:normal;
+    color:dimgrey;
+}
+
+h4{
+    font-size:15px;
+    font-weight: normal;
+    color: black;
 }
 
 .education{
     grid-area: education;
+    width: 158%;
+    color:black;
+    background-color: lightgrey;
 }
 
-.img{
-    grid-area: img;
-
+div {
+    font-size: 20px;
+    font-weight: bold;
 }
+
+p{
+    font-size:18px;
+    font-weight:normal;
+    color:dimgrey;
+}
+
 .skills{
     grid-area: skills;
+    width: 158%;
+    color:black;
+    background-color: lightgrey;
 }
 
+.contact {
+    grid-area: contact;
+    width: 158%;
+    color: black;
+}
 
 
 
