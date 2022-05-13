@@ -17,7 +17,7 @@
     background-color: white;
     color:white;
     grid-template-areas:
-        "header"
+        "header" "header"
         "experience" "education"
         "contact" "skills";
 }
